@@ -23,7 +23,6 @@
         --color-bike-primary: #E76F51;
         --color-bike-primary-bg: rgba(231, 111, 81, 0.1);
         --color-bike-footer-bg: rgba(0, 0, 0, 1);
-        
         --font-Poppins: "Poppins", sans-serif;
       }
     </style>
@@ -155,8 +154,23 @@
     <!-- main section  -->
     <main class="md:container mx-auto">
 
-        <!-- featured bike section need to complte -->
-        <section></section>
+        <!-- featured bike section -->
+        <section class="my-40">
+            <!-- text section  -->
+            <div class="flex flex-col justify-center items-center">
+                <h2 class="text-5xl font-bold text-center ">Fetured Bikes In This Year</h2>
+                <p class="text-bike-primary font-bold ">Best bike collection</p>
+                <hr class="border-bike-primary border-1 w-20  ">
+            </div>
+
+            <!-- image section  -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center mt-12">
+                <img class="grayscale" src="./images/others/feature-bike.png" alt="">
+                <img src="./images/others/feature-bike.png" alt="">
+                <img class="grayscale" src="./images/others/feature-bike.png" alt="">
+            </div>
+        </section>
+
         <!-- LATEST news SECTION -->
         <section class="my-24">
             <h3 class="text-5xl font-bold text-center mb-12">Latest News</h3>
@@ -272,13 +286,13 @@
                 <a href="">Download Now</a>
                 <a href="">License</a>
             </div>
-            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 ">
-                <a href="">About</a>
-                <a href="">Features</a>
-                <a href="">Pricing</a>
-                <a href="">Carrers</a>
-                <a href="">Help</a>
-                <a href="">Privacy Policy</a>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-0">
+                <a href="" class="block">About</a>
+                <a href="" class="block">Features</a>
+                <a href="" class="block">Pricing</a>
+                <a href="" class="block">Careers</a>
+                <a href="" class="block">Help</a>
+                <a href="" class="block">Privacy Policy</a>
             </div>
             <p class="text-sm">© 2020 bike. All rights reserved</p>
 
